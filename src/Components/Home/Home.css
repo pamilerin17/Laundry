@@ -1,0 +1,81 @@
+.home {
+ background-image: url('../../assets/h1_hero.png');
+ /* Replace with the actual path to your background image */
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 100vh;
+ /* Full viewport height */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: white;
+ padding: 20px;
+}
+
+.home h3 {
+ font-size: 3rem;
+ font-weight: 400;
+ margin-bottom: 1rem;
+}
+
+.home h1 {
+ font-size: 2.5rem;
+ font-weight: 700;
+ margin-bottom: 2rem;
+}
+
+.home button {
+ background-color: rgb(103, 103, 179);
+ /* Accent color */
+ color: white;
+ border: none;
+ padding: 10px;
+ font-size: 1rem;
+ border-radius: 5px;
+ cursor: pointer;
+ text-transform: uppercase;
+ transition: background-color 0.3s ease;
+}
+
+.home button:hover {
+ background-color: rgb(29, 29, 213);
+ transform: .3s ease-in-out;
+}
+
+.home button a {
+ color: white;
+ text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+ .home h3 {
+  font-size: 1.5rem;
+ }
+
+ .home h1 {
+  font-size: 2rem;
+ }
+
+ .home button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+ }
+}
+
+@media screen and (max-width: 480px) {
+ .home h3 {
+  font-size: 1.2rem;
+ }
+
+ .home h1 {
+  font-size: 1.5rem;
+ }
+
+ .home button {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+ }
+}

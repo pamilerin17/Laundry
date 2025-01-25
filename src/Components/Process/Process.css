@@ -1,0 +1,101 @@
+/* General styling for the process section */
+.pro {
+ text-align: center;
+ padding: 20px;
+ margin-bottom: 40px;
+}
+
+.pro h1 {
+ font-size: 2.5rem;
+ font-weight: bold;
+ color: rgb(115, 115, 211);
+ /* margin-bottom: 10px; */
+}
+
+.pro h2 {
+ font-size: 1.2rem;
+ color: rgb(55, 55, 111);
+ font-weight: 400;
+ margin-bottom: 20px;
+}
+
+/* Flex container for the process steps */
+.th {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ padding: 10px;
+}
+
+.this {
+ background-color: #f9f9f9;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ border-radius: 10px;
+ padding: 20px;
+ max-width: 350px;
+ text-align: center;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.this:hover {
+ transform: translateY(-10px);
+ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.this img {
+ width: 80px;
+ height: auto;
+ margin-bottom: 15px;
+}
+
+.this h2 {
+ font-size: 1.5rem;
+ color: #222;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.this p {
+ font-size: 1rem;
+ color: #555;
+ line-height: 1.6;
+ margin: 0;
+}
+
+/* Responsive grid for larger screens */
+@media (min-width: 768px) {
+ .th {
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+ }
+
+ .this {
+  max-width: 300px;
+  padding: 25px;
+ }
+}
+
+/* Larger device adjustments */
+@media (min-width: 1024px) {
+ .pro h1 {
+  font-size: 3rem;
+ }
+
+ .pro h2 {
+  font-size: 1.5rem;
+ }
+
+ .this img {
+  width: 100px;
+ }
+
+ .this h2 {
+  font-size: 1.8rem;
+ }
+
+ .this p {
+  font-size: 1.1rem;
+ }
+}

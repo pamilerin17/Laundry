@@ -1,0 +1,112 @@
+/* General styling for the Services section */
+.ser {
+ text-align: center;
+ padding: 20px;
+ margin-bottom: 30px;
+}
+
+.ser h2 {
+ font-size: 2rem;
+ color: #555;
+ margin-bottom: 10px;
+ font-weight: 500;
+}
+
+.ser h1 {
+ font-size: 2.5rem;
+ color: #333;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+
+/* Styling for individual service containers */
+.serve {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #f9f9f9;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ border-radius: 10px;
+ padding: 20px;
+ margin: 15px auto;
+ max-width: 700px;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serve:hover {
+ transform: translateY(-10px);
+ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.serve img {
+ width: 100%;
+ height: auto;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+
+/* Styling for the service details */
+.sev {
+ text-align: center;
+ padding: 10px;
+}
+
+.sev img {
+ width: 60px;
+ height: auto;
+ margin-bottom: 15px;
+ background-color: blue;
+}
+
+.sev h1 {
+ font-size: 1.8rem;
+ color: #222;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.sev p {
+ font-size: 1rem;
+ color: #555;
+ line-height: 1.6;
+}
+
+/* Responsive Design */
+
+/* Medium screens: Adjust the layout for better readability */
+@media (min-width: 768px) {
+ .serve {
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+  padding: 30px;
+ }
+
+ .serve img {
+  width: 40%;
+ }
+
+ .sev {
+  text-align: left;
+ }
+}
+
+/* Larger screens: Enhance spacing and typography */
+@media (min-width: 1024px) {
+ .ser h1 {
+  font-size: 3rem;
+ }
+
+ .serve img {
+  width: 45%;
+ }
+
+ .sev h1 {
+  font-size: 2rem;
+ }
+
+ .sev p {
+  font-size: 1.2rem;
+ }
+}

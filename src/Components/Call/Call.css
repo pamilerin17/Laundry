@@ -1,0 +1,79 @@
+/* General Styling for the Call section */
+.ca {
+ text-align: center;
+ padding: 30px;
+ background-color: rgb(102, 102, 210);
+ margin: 0 auto;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ width: 80%;
+ max-width: 800px;
+}
+
+.ca h2 {
+ font-size: 1.8rem;
+ color: black;
+ font-weight: bold;
+ margin-bottom: 15px;
+}
+
+.ca p {
+ font-size: 1.2rem;
+ color: black;
+ line-height: 1.6;
+ margin-bottom: 20px;
+}
+
+.ca h1 {
+ font-size: 1.6rem;
+ color: black;
+ padding: 12px 25px;
+ border-radius: 5px;
+ display: inline-flex;
+ align-items: center;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+
+.ca h1 svg {
+ margin-right: 10px;
+ font-size: 1.8rem;
+}
+
+/* Responsive Design */
+
+/* For small to medium screens: Adjust text size and layout */
+@media (max-width: 768px) {
+ .ca {
+  padding: 25px;
+ }
+
+ .ca h2 {
+  font-size: 1.6rem;
+ }
+
+ .ca p {
+  font-size: 1rem;
+ }
+
+ .ca h1 {
+  font-size: 1.4rem;
+ }
+}
+
+/* For extra small screens: Ensure the content fits well */
+@media (max-width: 480px) {
+ .ca h2 {
+  font-size: 1.4rem;
+ }
+
+ .ca p {
+  font-size: 0.9rem;
+ }
+
+ .ca h1 {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+ }
+}
