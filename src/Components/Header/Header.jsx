@@ -33,8 +33,8 @@ function Header() {
         </div>
          <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
         <Link to='/'>Home</Link>
-        <Link to='/Services'>Services</Link>
-        <Link to='/About'>About</Link>
+        <Link to='/Us'>About</Link>
+        <Link to='/Service'>Services</Link>
         <Link to='/Contact'>Contact</Link>
         <Link to='/Appointment'><button className='button'><a href="Book An Appointment">Book An Appointment</a></button></Link>
        </div>

@@ -9,6 +9,8 @@ import Call from './Components/Call/Call'
 import Review from './Components/Review/Review'
 import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
+import Us from './Components/Us/Us'
+import Service from './Components/Service/Service'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
   <Header />
   <Routes>
     <Route path="/" element={<><Home /><Process/><Services/><Call/><Review/><About/></>} />
+    <Route path="/us" element={<><Us/><About/><Process/><Call/><Review/></>} />
+    <Route path= "/Service" element={<><Service/><Process/><Services/><Call/><Review/></>}/>
   </Routes>
   <Footer/>
 </Router>
