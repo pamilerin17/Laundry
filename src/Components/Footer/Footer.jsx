@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div>
      <div className="footer">
-       <div className="first">
+       <div className="last">
        <img src={Logo} alt="Logo" />
        <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
         <p><FaTwitter/><FaFacebook/><FaPinterest/></p>

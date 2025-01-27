@@ -11,7 +11,8 @@ import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
 import Us from './Components/Us/Us'
 import Service from './Components/Service/Service'
-
+import Contact from './Components/Contact/Contact'
+import Get from './Components/Get/Get'
 function App() {
 
 
@@ -23,6 +24,7 @@ function App() {
     <Route path="/" element={<><Home /><Process/><Services/><Call/><Review/><About/></>} />
     <Route path="/us" element={<><Us/><About/><Process/><Call/><Review/></>} />
     <Route path= "/Service" element={<><Service/><Process/><Services/><Call/><Review/></>}/>
+    <Route path='/Contact' element={<><Contact/><Get/></>}/>
   </Routes>
   <Footer/>
 </Router>

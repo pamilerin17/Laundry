@@ -75,7 +75,7 @@
 }
 
 /* Button Styling */
-.button a {
+.button  {
  text-decoration: none;
  color: black;
  background-color: rgb(197, 197, 225);

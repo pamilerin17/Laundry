@@ -8,7 +8,7 @@
  justify-content: space-between;
 }
 
-.footer .first {
+.footer .last {
  flex: 1;
  display: flex;
  flex-direction: column;
@@ -17,20 +17,20 @@
  margin-bottom: 20px;
 }
 
-.footer .first img {
+.footer .last img {
  width: 150px;
  margin-bottom: 15px;
 }
 
-.footer .first p {
+.footer .last p {
  font-size: 1rem;
  color: #dddddd;
  text-align: center;
 }
 
-.footer .first .FaTwitter,
-.footer .first .FaFacebook,
-.footer .first .FaPinterest {
+.footer .last .FaTwitter,
+.footer .last .FaFacebook,
+.footer .last .FaPinterest {
  margin-right: 15px;
  font-size: 1.5rem;
  color: rgb(175, 175, 198);
@@ -84,7 +84,7 @@
   text-align: center;
  }
 
- .footer .first {
+ .footer .last {
   margin-bottom: 30px;
  }
 
@@ -98,24 +98,24 @@
   font-size: 1rem;
  }
 
- .footer .first p {
+ .footer .last p {
   font-size: 1.1rem;
  }
 
- .footer .first .FaTwitter,
- .footer .first .FaFacebook,
- .footer .first .FaPinterest {
+ .footer .last .FaTwitter,
+ .footer .last .FaFacebook,
+ .footer .last .FaPinterest {
   font-size: 1.8rem;
   margin-right: 10px;
  }
 }
 
 @media (max-width: 480px) {
- .footer .first img {
+ .footer .last img {
   width: 120px;
  }
 
- .footer .first p {
+ .footer .last p {
   font-size: 1rem;
  }
 

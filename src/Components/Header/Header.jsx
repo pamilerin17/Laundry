@@ -36,7 +36,7 @@ function Header() {
         <Link to='/Us'>About</Link>
         <Link to='/Service'>Services</Link>
         <Link to='/Contact'>Contact</Link>
-        <Link to='/Appointment'><button className='button'><a href="Book An Appointment">Book An Appointment</a></button></Link>
+        <button className='button'>Book An Appointment</button>
        </div>
 
         <div className="menu-icon" onClick={()=>setMenuOpened((prev)=>!prev)}>
